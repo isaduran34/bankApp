@@ -34,6 +34,7 @@ public abstract class Account implements BaseInterestRate{
 	public Account(String name, String ssn, double balance) {
 		
 		this.name = name;
+		this.ssn = ssn;
 	}
 	
 	
