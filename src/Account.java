@@ -6,6 +6,10 @@
  */
 
 public abstract class Account implements BaseInterestRate{
+	String name;
+	String ssn;
+	double balance;
+	
 	
 	/*
 	 * Declare the following fields:
@@ -35,6 +39,7 @@ public abstract class Account implements BaseInterestRate{
 		
 		this.name = name;
 		this.ssn = ssn;
+		this.balance = balance;
 	}
 	
 	
