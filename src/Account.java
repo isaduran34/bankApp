@@ -9,6 +9,7 @@ public abstract class Account implements BaseInterestRate{
 	String name;
 	String ssn;
 	double balance;
+	double rate;
 	
 	
 	/*
@@ -40,6 +41,7 @@ public abstract class Account implements BaseInterestRate{
 		this.name = name;
 		this.ssn = ssn;
 		this.balance = balance;
+		rate = 0.5;
 	}
 	
 	
