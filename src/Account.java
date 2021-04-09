@@ -6,10 +6,10 @@
  */
 
 public abstract class Account implements BaseInterestRate{
-	String name;
-	String ssn;
-	double balance;
-	double rate;
+	private String name;
+	private String ssn;
+	private double balance;
+	private double rate;
 	
 	
 	/*
